@@ -1,0 +1,106 @@
+.mdl-layout__header img {
+  height: 60%;
+  padding-right: 30px;
+  position: relative;
+  margin-left: -62px; }
+
+text {
+  font: 10px sans-serif; }
+
+.x.axis text {
+  opacity: 1; }
+
+.x.axis .tick {
+  opacity: 1; }
+
+path {
+  fill: none; }
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.label {
+  fill: #777; }
+
+.year.label {
+  font: 500 196px "Helvetica Neue";
+  fill: #aaa; }
+
+.topleftlabel {
+  fill: #777; }
+
+.country.topleftlabel {
+  font: 500 80px "Helvetica Neue";
+  fill: #9E9E9E;
+  opacity: 0;
+  z-index: 100; }
+
+.year.label.active {
+  fill: #424242; }
+
+.dot {
+  z-index: 1000; }
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize; }
+
+.countryGraph {
+  opacity: 0; }
+
+.supporting_text {
+  font-size: 12px;
+  fill: #777; }
+
+.wide-card.mdl-card {
+  width: auto;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  margin-bottom: 16px; }
+
+.mdl-card svg {
+  display: block;
+  margin: auto; }
+
+@media (max-width: 872px) {
+  .mdl-card__title-text {
+    font-size: 16px !important; }
+
+  .restart.mdl-button {
+    top: 8px !important;
+    right: 8px !important; }
+
+  text {
+    font: 12px sans-serif; }
+
+  .supporting_text {
+    font-size: 14px; } }
+@media (max-width: 600px) {
+  text {
+    font: 14px sans-serif; }
+
+  .supporting_text {
+    font-size: 16px; }
+
+  .mdl-button {
+    opacity: 0 !important; } }
+@media (max-width: 450px) {
+  text {
+    font: 14px sans-serif; }
+
+  .mdl-card__title-text {
+    font-size: 14px !important; }
+
+  .supporting_text {
+    opacity: 0 !important; } }
+.restart.mdl-button {
+  position: absolute;
+  top: 12px;
+  right: 12px; }
+
+.mdl-card__actions {
+  padding: 4px !important; }
